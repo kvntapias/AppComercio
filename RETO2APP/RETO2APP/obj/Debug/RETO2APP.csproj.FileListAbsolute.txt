@@ -1,0 +1,82 @@
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe.config
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\bin\Debug\RETO2APP.pdb
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\bin\Debug\CAD.dll
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\bin\Debug\DTO.dll
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\bin\Debug\CAD.pdb
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\bin\Debug\DTO.pdb
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csprojAssemblyReference.cache
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\MainWindow.g.cs
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\PanelUsers.g.cs
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\VIEWS\ModuloCatalogos.g.cs
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\VIEWS\Moduloproductos.g.cs
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\VIEWS\Registrocliente.g.cs
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\App.g.cs
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP_MarkupCompile.cache
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP_MarkupCompile.lref
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\MainWindow.baml
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\PanelUsers.baml
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\VIEWS\ModuloCatalogos.baml
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\VIEWS\Moduloproductos.baml
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\VIEWS\Registrocliente.baml
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.g.resources
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.Properties.Resources.resources
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csproj.GenerateResource.cache
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csproj.CoreCompileInputs.cache
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csproj.CopyComplete
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.exe
+C:\Users\kvn\Desktop\RETO 2\RETO2APP\RETO2APP\obj\Debug\RETO2APP.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe.config
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP.exe
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\RETO2APP.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\CAD.dll
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\DTO.dll
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\CAD.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\DTO.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csprojResolveAssemblyReference.cache
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\MainWindow.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\PanelUsers.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\VIEWS\ModuloCatalogos.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\VIEWS\Moduloproductos.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\VIEWS\Registrocliente.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\App.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP_MarkupCompile.cache
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP_MarkupCompile.lref
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\MainWindow.baml
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\PanelUsers.baml
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\VIEWS\ModuloCatalogos.baml
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\VIEWS\Moduloproductos.baml
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\VIEWS\Registrocliente.baml
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP.g.resources
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP.Properties.Resources.resources
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csproj.GenerateResource.Cache
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe.CodeAnalysisLog.xml
+C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe.lastcodeanalysissucceeded
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe.config
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP.exe
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\bin\Debug\RETO2APP.exe
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\bin\Debug\RETO2APP.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\bin\Debug\CAD.dll
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\bin\Debug\DTO.dll
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\bin\Debug\CAD.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\bin\Debug\DTO.pdb
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csprojResolveAssemblyReference.cache
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\MainWindow.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\PanelUsers.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\VIEWS\ModuloCatalogos.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\VIEWS\Moduloproductos.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\VIEWS\Registrocliente.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\App.g.cs
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP_MarkupCompile.cache
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP_MarkupCompile.lref
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\MainWindow.baml
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\PanelUsers.baml
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\VIEWS\ModuloCatalogos.baml
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\VIEWS\Moduloproductos.baml
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\VIEWS\Registrocliente.baml
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP.g.resources
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP.Properties.Resources.resources
+C:\Users\APRENDIZ\Downloads\AppComercio\RETO2APP\RETO2APP\obj\Debug\RETO2APP.csproj.GenerateResource.Cache

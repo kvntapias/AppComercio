@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="C:\Users\APRENDIZ\Downloads\AppComercio-master\RETO2APP\CAD\bin\Debug\CAD.dll">
+   <Modules>
+    <Module Name="cad.dll">
+     <Namespaces>
+      <Namespace Name="CAD">
+       <Types>
+        <Type Name="CADCatalogo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-08-21 16:19:41Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'CADCatalogo' porque crea miembros de los tipos IDisposable siguientes: 'SqlCommand'. Si ya se había distribuido 'CADCatalogo', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CADProducto" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-08-21 16:19:41Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'CADProducto' porque crea miembros de los tipos IDisposable siguientes: 'SqlCommand'. Si ya se había distribuido 'CADProducto', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CADUsuario" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-08-21 16:19:41Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'CADUsuario' porque crea miembros de los tipos IDisposable siguientes: 'SqlDataAdapter'. Si ya se había distribuido 'CADUsuario', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Los tipos que poseen campos descartables deben ser descartables</Name>
+   <Description>Los tipos que declaran miembros descartables también deben implementar IDisposable. Si el tipo no posee ningún recurso no administrado, no implementar un finalizador.</Description>
+   <Resolution Name="DependsOnFix">Implemente IDisposable en {0} porque crea miembros de los tipos IDisposable siguientes: {1}. Si ya se había distribuido {0}, agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoría</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Contraer todo</String>
+  <String Key="CheckId">Comprobar id.</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">errores</String>
+  <String Key="ExpandAll">Expandir todo</String>
+  <String Key="Help">Ayuda</String>
+  <String Key="Line">Línea</String>
+  <String Key="Messages">mensajes</String>
+  <String Key="LocationNotStoredInPdb">[Ubicación no almacenada en Pdb]</String>
+  <String Key="Project">Proyecto</String>
+  <String Key="Resolution">Resolución</String>
+  <String Key="Rule">Regla</String>
+  <String Key="RuleFile">Archivo de regla</String>
+  <String Key="RuleDescription">Descripción de la regla</String>
+  <String Key="Source">Origen</String>
+  <String Key="Status">Estado</String>
+  <String Key="Target">Círculos concéntricos</String>
+  <String Key="Warning">Advertencia</String>
+  <String Key="Warnings">advertencias</String>
+  <String Key="ReportTitle">Informe de análisis del código</String>
+ </Localized>
+</FxCopReport>

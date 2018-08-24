@@ -1,0 +1,35 @@
+﻿<Window x:Class="RETO2APP.VIEWS.ModuloAsociar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RETO2APP.VIEWS"
+        mc:Ignorable="d"
+        Title="Asignar catalogos" 
+       Height="282.5" Width="341.273" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,-3,-2" Background="Coral" HorizontalAlignment="Left" Width="336">
+        <Grid Margin="3,2,12,208">
+            <Button Width="50" Content="menu" HorizontalAlignment="Left" Margin="0,4,0,8" Click="Back"/>
+            <Label HorizontalAlignment="Left"  FontSize="18px" Margin="54,0,0,3" Width="273">Asignar catalogo a los productos</Label>
+        </Grid>
+        <StackPanel Background="Beige" Margin="52,47,30,19">
+            <!-- SELECT 2 -->
+            <Label HorizontalAlignment="Center" FontSize="11px" Content="Seleccione Producto"/>
+            <ComboBox Width="200" x:Name="productoID"
+            ItemsSource="{Binding ProductoList}"
+                  DisplayMemberPath="nombre"
+                  SelectedValuePath="Id">
+            </ComboBox>
+            <!-- SELECT 2 -->
+            <Label HorizontalAlignment="Center" FontSize="11px" Content="Seleccione catalogo"/>
+            <ComboBox Width="200" x:Name="catalogoID"
+                 ItemsSource="{Binding CatalogoList}"
+                  DisplayMemberPath="nombre"
+                  SelectedValuePath="Id">
+            </ComboBox>
+            <Button Background="Coral" Margin="29,23,26,7" Height="28" Width="100" Click="AsignarCatalogo">
+                <Label Width="50" Content="Asignar" Height="27"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

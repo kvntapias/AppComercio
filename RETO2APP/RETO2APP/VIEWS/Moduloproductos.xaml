@@ -1,0 +1,80 @@
+﻿<Window x:Class="RETO2APP.VIEWS.Moduloproductos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RETO2APP.VIEWS"
+        mc:Ignorable="d"  WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="Moduloproductos" 
+        Height="469.5" Width="638">
+    <Window.Resources>
+        <DataTemplate x:Key="Template" >
+            <Border Name="border" BorderBrush="#292929" BorderThickness="2" 
+               Padding="5"  >
+                <Grid Height="140" Width="300">
+                    <TextBlock Visibility="Hidden" x:Name="txtId" Text="{Binding Idprod}"></TextBlock>
+                    <!--Titulo-->
+                    <TextBlock Text="{Binding nombre}" Width="400"
+                        FontSize="20"  Margin="140,10,44,44"/>
+                    <!--Descripcion-->
+                    <TextBlock Height="50" TextWrapping="Wrap"
+                      Text="{Binding cantidad}" Margin="140,33,44,44" />
+                    <!--Imagen-->
+                    <Grid  Margin="-40,0,200,10" Width="auto" Height="auto" >
+                        <Image  Source="{Binding imagen}"  Width="130" Height="100"/>
+                    </Grid>
+                </Grid>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid Margin="0,0,1,2" Background="Coral">
+        <Grid Margin="10,-5,0,336">
+            <Label HorizontalAlignment="Center"
+            FontSize="30px" Margin="214,0,208,39" Width="159">Productos</Label>
+            <StackPanel Margin="0,7,0,-1">
+                <Button Click="Menu" Content="Menu" Height="28" Margin="0,0,551,31"/>
+                <!--COMBOBOX CATALOGOS-->
+                <ComboBox ItemsSource="{Binding ComboboxCatalogo}"
+                          Margin="241,0,284,0"
+                          x:Name="boxCatalogo"
+                          Height="22"
+                          Width="100"
+                          DisplayMemberPath="nombre"
+                  SelectedValuePath="Id"/>
+                <Button Content="Agregar" Height="25" Margin="0,-27,551,31" Click="OpenForm">
+                </Button>
+                <TextBox x:Name="txtBusqueda" Height="20" Margin="372,-43,121,31"/>
+                <Button Click="BuscarProducto" Content="Buscar" Height="24" Margin="512,-56,15,31">
+                </Button>
+                <Image x:Name="imgFoto" Height="50" Margin="76,-110,459,0"/>
+            </StackPanel>
+        </Grid>
+        <StackPanel Background="Beige" Margin="10,93,10,10">
+            <!--FORM REGISTRAR PRODUCTO-->
+            <StackPanel x:Name="FormularioProductos" Height="298" Margin="34,0,346,0" Background="#F1F1F1" Visibility="Hidden">
+                <Button Click="CloseForm" Height="20px" Content="X" Margin="198,0,0,0"></Button>
+                <Label  x:Name="txtID" Visibility="Hidden"></Label>
+                <Label HorizontalAlignment="Center" FontSize="17">Registrar nuevo</Label>
+                <Label Margin="42,0,115,-10" Content="Nombre"/>
+                <TextBox x:Name="txtNombre"  TabIndex="0" Background="CadetBlue" Margin="46,10,29,10" FontStyle="Italic"  Height="28" />
+                <Label Margin="38,0,29,-10" Content="Imagen"/>
+                <Button Click="AddFoto" x:Name="AddImagen" Height="27" Margin="45,6,30,0" Content="Seleccionar imagen"/>
+                <Label x:Name="txtImagen"></Label>
+                <Label Margin="48,0,28,-10" Content="Cantidad"/>
+                <TextBox x:Name="txtCantidad" TabIndex="2" Background="CadetBlue" Margin="47,10,27,10" FontStyle="Italic" Height="27"/>
+                <Button x:Name="btnRegistrar" Height="27" Margin="45,6,30,0" Content="Registrar" Click="crearProducto"/>
+            </StackPanel>
+            <ScrollViewer Margin="30,-279,0,0" VerticalAlignment="Top" Height="276" x:Name="scroll">
+                <DockPanel Width="400" Background="white" >
+                    <!-- Listbox que instancia el datatemplate -->
+                    <ListBox   Width="400"  Name="CardProd" Background="Beige" ItemTemplate="{StaticResource Template}" 
+                                 HorizontalContentAlignment="Stretch" IsSynchronizedWithCurrentItem="True" Height="276" />
+                </DockPanel>
+            </ScrollViewer>
+
+
+        </StackPanel>
+
+    </Grid>
+</Window>
